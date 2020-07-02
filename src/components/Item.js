@@ -18,8 +18,8 @@ Item.propTypes = {
   name: PropTypes.string.isRequired,
   size: PropTypes.string.isRequired,
   color: PropTypes.string,
-  quantity: PropTypes.number.isRequired
-
+  quantity: PropTypes.number.isRequired,
+  //id: PropTypes.string
 };
 
 

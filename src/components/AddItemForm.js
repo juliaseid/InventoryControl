@@ -30,7 +30,7 @@ function AddItemForm(props) {
   );
 
   function handleAddItemFormSubmission(event) {
-    event.preventDefault;
+    event.preventDefault();
     props.onAddItemCreation({
       name: event.target.name.value,
       color: event.target.color.value,
@@ -42,7 +42,7 @@ function AddItemForm(props) {
 }
 
 AddItemForm.propTypes = {
-  onAddItemCreation = PropTypes.func
+  onAddItemCreation: PropTypes.func
 };
 
 export default AddItemForm;
